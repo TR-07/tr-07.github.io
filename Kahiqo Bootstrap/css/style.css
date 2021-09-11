@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Nanum+Pen+Script&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Mate+SC&family=Staatliches&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+#kontakt_input_message {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+body, html {
+    min-height: 100% !important;
+}
+
+header h1 {
+    font-family: 'Poiret One', cursive;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 3rem;
+    width: 100% !important;
+    background-color: #e8e9ea !important;
+    color: #495057 !important;
+}
+
+footer a {
+    color: #495057 !important;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    display: none !important;
+}
+
+.list_vorteile {
+    list-style-image: url(../../../../../../Downloads/approval_127px\ \(1\).png);
+}
+
+.list_nachteile {
+    list-style-image: url(../asserts/delete_127px.png);
+}
+
+.tr {
+    width: 4rem;
+    height: 4rem;   
+    background: linear-gradient(to right bottom, #ccffd6, #ccdcff, #ffccf5, #fff0cc);
+    color: black;
+    margin: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tr span, .af span {
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+}
+
+.af span {
+    margin-right: 0.75rem;
+}
+
+.af {
+    margin: 0.75rem;
+    height: 4rem;
+    width: 8rem;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+    background: url(../asserts/shapes.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}

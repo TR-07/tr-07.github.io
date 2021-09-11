@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Kahiqo</title>
+    </head>
+    <body>
+        <div class="modal fade" id="modalLateinText" tabindex="-1" aria-labelledby="modalLateinTextTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalLateinTextTitle">Wofür steht der lateinische Text?</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Der lateinische Text, den man im Anfangsstadium unserer Webentwicklung finden wird, ist ein <strong><em>Platzhalter</em></strong> für den Text, der noch kommen wird.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Alles Gut! Ich habe Zeit</button>
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Die Marketingabteilung braucht zu lange</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal_not_available" tabindex="-1" aria-labelledby="modal_not_available_title" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal_not_available_title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Diese Funktion ist noch nicht verfügbar!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Alles Gut! Ich habe Zeit</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container mt-md-5 mt-3">
+            <div class="row">
+                <a class="d-block" style="text-decoration: none; color: inherit;" href="index.html">
+                <header class="header d-md-flex d-block flex-wrap">
+                    <div class="float-start float-md-none"></div>
+                    <h1 class="col-6 float-start float-md-none col-md-4 d-md-inline-block">Kahiqo</h1>
+                    <h1 class="col-2 col-md-4 d-none d-md-inline-block">&#12472;&#12517;&#12456;&#12522;&#12540;</h1>
+                    <div class="col-6 float-end float-md-none col-md-4 d-md-flex justify-content-end">
+                        <img class="img-fluit float-end" src="asserts/logo2.jpg" alt="logo" style="max-height: 5rem">
+                    </div>
+                    <h1 class="col-6 float-start float-md-none col-md-4 d-md-none">&#12472;&#12517;&#12456;&#12522;&#12540;</h1>
+
+                </header>
+                </a>
+            </div>
+            <hr>
+            <div class="row">   
+    
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand d-md-none" href="#">&Uuml;ber uns</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mt-2 mt-md-0 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Produkte
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="produkte_inspirieren.html">Inspirieren</a></li>
+                                <li><a class="dropdown-item" href="produkte_bestimmtes.html">Bestimmtes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 active rounded-3" aria-current="page" href="#" style="background-color: #fff0cc;">&Uuml;ber uns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="contact.html">Kontakt</a>
+                        </li>
+                        <!--<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>-->
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div><!--row-->
+            <div class="card mt-3">
+                
+                <div class="card-body">
+                    <h3 class="card-title">
+                    Wer sind wir?
+                    </h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio qui temporibus necessitatibus! Quae, repellendus adipisci et laudantium commodi animi fuga blanditiis quas modi labore, autem eius unde! Dolorum, ipsum quibusdam?</p>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalLateinText">
+                        Wofür steht der lateinische Text?
+                    </button>
+                </div>
+            </div>
+            <div class="card mt-3">
+                
+                <div class="card-body">
+                    <h3 class="card-title">
+                    &Uuml;ber unsere Firma
+                    </h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio qui temporibus necessitatibus! Quae, repellendus adipisci et laudantium commodi animi fuga blanditiis quas modi labore, autem eius unde! Dolorum, ipsum quibusdam?</p>
+                </div>
+            </div>
+            <div class="card mt-3" id="card-webseite">
+                
+                <div class="card-body">
+                    <h3 class="card-title">
+                    &Uuml;ber die Webseite
+                    </h3>
+                    <p class="card-text">&copy; Developed by <span class="tr"><span>TR</span></span> and <a target="_blank" href="http://alexandrosfeuerstein.de/"><span class="af"><span>AF</span></span></a></p>
+                </div>
+            </div>
+            <div class="card mt-3">
+                
+                <div class="card-body" id="geschaeftsfuehrung">
+                    <h3 class="card-title">
+                    Geschäftsführung
+                    </h3>
+                    <div class="container marketing mt-3">
+
+                        <!-- Three columns of text below the carousel -->
+                        <div class="row">
+                        <div class="col-lg-6">
+                            <img class="rounded-circle" src="asserts/female_user_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2">Mia K</h2>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-lg-6">
+                            <img class="rounded-circle" src="asserts/user_male_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2">Tobias R</h2>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                        </div><!-- /.col-lg-4 -->
+                        
+                        </div><!-- /.row -->
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                
+                <div class="card-body" id="marketingabteilung">
+                    <h3 class="card-title">
+                    Marketingabteilung
+                    </h3>
+                    <div class="container marketing mt-3">
+
+                        <!-- Three columns of text below the carousel -->
+                        <div class="row">
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/female_worker_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Lilli A</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/school_director_male_skin_type_3_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Lukas G</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/female_user2_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Mia L</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/school_director_female_skin_type_5_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Leni K</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/user_female_red_hair_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Alessia F</h2>
+                        </div><!-- /.col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                
+                <div class="card-body" id="fee">
+                    <h3 class="card-title">
+                    FEE (Forschung, Entwicklung, Einkauf)
+                    </h3>
+                    <div class="container marketing mt-3">
+
+                        <!-- Three columns of text below the carousel -->
+                        <div class="row">
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/school_director_female_skin_type_5_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Lotte S</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/man_in_green_tie_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Charis K</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/caveman_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Tristan X</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/business_man_in_yellow_glasses_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Ede Y</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/girl_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Aleyna Z</h2>
+                        </div><!-- /.col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                
+                <div class="card-body" id="finanzen">
+                    <h3 class="card-title">
+                    Buchhaltung, Finanzen & Co
+                    </h3>
+                    <div class="container marketing mt-3">
+
+                        <!-- Three columns of text below the carousel -->
+                        <div class="row">
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/beyonce_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Mayu K</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/school_director_male_skin_type_3_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Ben S</h2>
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-6 col-md-3 mx-auto">
+                            <img class="rounded-circle mx-auto d-block" src="asserts/man_in_green_tie2_127px.png" alt="Generic placeholder image" width="140" height="140">
+                            <h5 class="mt-2 text-center w-100">Alex F</h2>
+                        </div>
+                        </div><!-- /.row -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="p-4">
+            <div class="container">
+                <div class="row">
+                    <section class="col-md-4 col-12">
+                        <img class="img-fluid" src="asserts/logo2.jpg">
+                    </section>
+                    <div class="col-md-8 row d-flex flex-wrap">
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>STAY IN TOUCH</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:kahiqo.lmg@gmx.de" style="line-height: 80%;" class="d-block">kahiqo.lmg<wbr><span style="line-height: 150%;">@gmx.de</span></a></li>
+                            <li><a href="contact.html?accordeon-contact-item#accordeon-nachricht-collapse-item">Nachricht</a></li>
+                            <li><a target="_blank" href="https://goo.gl/maps/GnaK8pQxxAXUcdSo9">Standort</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>PRODUKTE</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="produkte_inspirieren.html" class="">Inspirieren</a></li>
+                            <li><a href="mailto:kahiqo.lmg@gmx.de">Beratung</a></li>
+                            <li><a href="produkte_bestimmtes.html">Bestimmtes</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>ABOUT</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html#geschaeftsfuehrung" class="text-wrap">Geschäfts&shy;führung</a></li>
+                            <li><a href="about.html#marketingabteilung" class="text-wrap">Marketing&shy;abteilung</a></li>
+                            <li><a href="about.html">Produktion</a></li>
+                            <li><a href="about.html#finanzen">Buchhaltung</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>RECHTLICHES</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html" class="text-wrap">Datenschutz&shy;erklärung</a></li>
+                            <li><a href="about.html">AGBs</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                        </ul>
+                    </section>
+                    </div>
+                </div>
+                <small style="color: grey;">Icons from <a href="https://icons8.com/">Icons8</a></small>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="asserts/logo.jpg">
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Kahiqo</title>
+    </head>
+    <body>
+        <div class="modal fade" id="modalHowToBuy" tabindex="-1" aria-labelledby="modalHowToBuyLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modalHowToBuyLabel">Wie kaufe ich bei euch ein?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <article>
+                        <h5>Möglichkeit 1<br>Am LMG abholen</h5>
+                        <p>Sie können es online vorbestellen und anschließend an einem Verkaufstag abholen und dort zahlen.</p>
+                        <img src="asserts/approval_127px.png" alt="vorteile" width="75px">
+                        <ul class="">
+                            <li>Keine Versandkosten</li>
+                            <li>Einfache Zahlung</li>
+                        </ul>
+                        <img src="asserts/delete_127px.png" alt="nachteile" width="75px">
+                        <ul class="">
+                            <li>Zum Verkaufsort gehen</li>
+                        </ul>
+                    </article>
+                    <hr>
+                    <article>
+                        <h5>Möglichkeit 2<br>Zuliefern lassen</h5>
+                        <p>Sie können uns den Betrag auf unser Bankkonto überweisen, woraufhin wir ihr Produkt losschicken werden. Jedoch müssten Sie auch die Portokosten bezahlen.</p>
+                        <img src="asserts/approval_127px.png" alt="vorteile" width="75px">
+                        <ul class="">
+                            <li>Sie können es von zuhause bestellen</li>
+                        </ul>
+                        <img src="asserts/delete_127px.png" alt="nachteile" width="75px">
+                        <ul class="">
+                            <li>Versandkosten bezahlen</li>
+                            <li>Schwierigere Zahlungsabwicklung</li>
+                        </ul>
+                    </article>
+                    <hr>
+                    <article>
+                        <h5>Möglichkeit 3<br>Sie lassen sich überraschen</h5>
+                        <p>Sie können einfach an einem Verkaufstag kommen und gucken, welche Produkte gerade vor Ort sind.</p>
+                        <img src="asserts/approval_127px.png" alt="vorteile" width="75px">
+                        <ul class="">
+                            <li>Einfach zum Verkaufsort gehen</li>
+                            <li>Inspirieren lassen</li>
+                            <li>Einfache Zahlung</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container mt-md-5 mt-3">
+            <div class="row">
+                <a class="d-block" style="text-decoration: none; color: inherit;" href="index.html">
+                <header class="header d-md-flex d-block flex-wrap">
+                    <div class="float-start float-md-none"></div>
+                    <h1 class="col-6 float-start float-md-none col-md-4 d-md-inline-block">Kahiqo</h1>
+                    <h1 class="col-2 col-md-4 d-none d-md-inline-block">&#12472;&#12517;&#12456;&#12522;&#12540;</h1>
+                    <div class="col-6 float-end float-md-none col-md-4 d-md-flex justify-content-end">
+                        <img class="img-fluit float-end" src="asserts/logo2.jpg" alt="logo" style="max-height: 5rem">
+                    </div>
+                    <h1 class="col-6 float-start float-md-none col-md-4 d-md-none">&#12472;&#12517;&#12456;&#12522;&#12540;</h1>
+
+                </header>
+                </a>
+            </div>
+            <hr>
+            <div class="row">   
+     
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand d-md-none" href="#">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mt-md-0 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active rounded-3 p-2 " aria-current="page" href="#" style="background-color: #ccffd6;">Home</a>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link p-2" href="products.html">Produkte</a>
+                            </li>-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Produkte
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="produkte_inspirieren.html">Inspirieren</a></li>
+                                    <li><a class="dropdown-item" href="produkte_bestimmtes.html">Bestimmtes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2" href="about.html">&Uuml;ber uns</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2" href="contact.html">Kontakt</a>
+                            </li>
+                            
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
+                  </nav>
+            </div>
+
+            
+            <div class="col-12 mt-3"></div>
+            <div class="row mb-3">
+                <div class="col-12 col-xl-6 mb-3">
+                    <div class="card border border-danger border-5 bg-light flex-row">
+                        <div class="float-start">
+                            <img src="asserts/Individueller-Ring-Schmuck-von-Tragkultur-Duesseldorf.jpg" class="d-block d-md-none img-fluid card-img" alt="Ring">
+                            <img src="asserts/Individueller-Ring-Schmuck-von-Tragkultur-Duesseldorf2.jpg" class="d-none d-md-block img-fluid card-img" alt="Ring">
+                        </div><!--<img src="asserts/Individueller-Ring-Schmuck-von-Tragkultur-Duesseldorf.jpg" class="d-block d-xl-none card-img-top w-50" alt="Ring">
+                        --><div class="float-start card-body">
+                            <h5 class="card-title">Unser neues Produkt!</h5>
+                            <a href="produkte_bestimmtes.html" class="btn btn-danger">Direkt Kaufen!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="card border border-info border-5 bg-light flex-row">
+                        <div class="float-start">
+                            <img src="asserts/sale_127px.png" class="img-fluid card-img" alt="Ring">
+                        </div><!--<img src="asserts/Individueller-Ring-Schmuck-von-Tragkultur-Duesseldorf.jpg" class="d-block d-xl-none card-img-top w-50" alt="Ring">
+                        --><div class="float-start w-50 card-body">
+                            <h5 class="card-title">Verkaufstag!</h5>
+                            <p class="card-text">In DREI Tagen ist Verkaufstag am LMG. Vorbestellen? Kein Problem!</p>
+                            <a href="produkte_bestimmtes.html" class="btn btn-info">Direkt Kaufen!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                    <div class="card">
+                        <div class="card-header">Wer sind wir?</div>
+                        <div class="card-body">
+                            <h5 class="card-title">JUNIOR Unternehmen</h5>
+                            <p class="card-text">Wir sind ein JUNIOR Unternehmen. Den restlichen Text, der hier zu lesen sein soll, muss die Marketing Abteilung schreiben.</p>
+                            <a href="about.html" class="btn btn-primary">Lesen Sie mehr &uuml;ber uns</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                    <div class="card">
+                        <div class="card-header">Was produzieren wir?</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Schmuck</h5>
+                            <p class="card-text">Sie lieben auch Schmuck? Kaufen Sie doch welchen! Den restlichen Text, der hier zu lesen sein soll, muss die Marketing Abteilung schreiben.</p>
+                            <a href="produkte_bestimmtes.html" class="btn btn-primary">Kaufen</a>
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalHowToBuy">
+                                Wie kaufe ich?
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                    <div class="card">
+                        <div class="card-header">Wo finde ich News?</div>
+                        <div class="card-body">
+                            <h5 class="card-title">News</h5>
+                            <p class="card-text">Sie wollen unseren News Blog sehen, in dem wir Ihnen einen Einblick in unsere Unternehmensgeschichte gewähren? Den restlichen Text, der hier zu lesen sein soll, muss die Marketing Abteilung schreiben.</p>
+                            <a href="news.html" class="btn btn-primary">News</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                    <div class="card">
+                        <div class="card-header">Wie kontaktieren Sie uns?</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kontakt</h5>
+                            <p class="card-text">Sie haben eine Frage an uns? Sehen Sie doch mal auf der Seite Kontakt nach. Den restlichen Text, der hier zu lesen sein soll, muss die Marketing Abteilung schreiben.</p>
+                            <a href="contact.html" class="btn btn-primary">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="p-4">
+            <div class="container">
+                <div class="row">
+                    <section class="col-md-4 col-12">
+                        <img class="img-fluid" src="asserts/logo2.jpg">
+                    </section>
+                    <div class="col-md-8 row d-flex flex-wrap">
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>STAY IN TOUCH</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:kahiqo.lmg@gmx.de" style="line-height: 80%;" class="d-block">kahiqo.lmg<wbr><span style="line-height: 150%;">@gmx.de</span></a></li>
+                            <li><a href="contact.html?accordeon-contact-item#accordeon-nachricht-collapse-item">Nachricht</a></li>
+                            <li><a target="_blank" href="https://goo.gl/maps/GnaK8pQxxAXUcdSo9">Standort</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>PRODUKTE</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="produkte_inspirieren.html" class="">Inspirieren</a></li>
+                            <li><a href="mailto:kahiqo.lmg@gmx.de">Beratung</a></li>
+                            <li><a href="produkte_bestimmtes.html">Bestimmtes</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>ABOUT</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html#geschaeftsfuehrung" class="text-wrap">Geschäfts&shy;führung</a></li>
+                            <li><a href="about.html#marketingabteilung" class="text-wrap">Marketing&shy;abteilung</a></li>
+                            <li><a href="about.html">Produktion</a></li>
+                            <li><a href="about.html#finanzen">Buchhaltung</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-6 mt-3 mt-md-auto">
+                        <h5>RECHTLICHES</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html" class="text-wrap">Datenschutz&shy;erklärung</a></li>
+                            <li><a href="about.html">AGBs</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                        </ul>
+                    </section>
+                    </div>
+                </div>
+                <small style="color: grey;">Icons from <a href="https://icons8.com/">Icons8</a></small>
+            </div>
+        </footer>
+    </body>
+</html>
